@@ -4189,3 +4189,10 @@ nav.navigation{
   .whatsapp:hover a i{
 	  color:#1A76D1 !important;
   }
+  @media(max-width:992px){
+	.header .social{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  }
+  }
