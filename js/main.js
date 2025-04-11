@@ -187,6 +187,31 @@ Version:	1.1
 				},
 			}
 		});
+		$('.testimonials-slider').owlCarousel({
+			items:5,
+			autoplay:true,
+			autoplayTimeout:3500,
+			margin:15,
+			smartSpeed: 400,
+			autoplayHoverPause:true,
+			loop:true,
+			nav:false,
+			dots:true,
+			responsive:{
+				300: {
+					items:1,
+				},
+				480: {
+					items:1,
+				},
+				768: {
+					items:1,
+				},
+				1170: {
+					items:1,
+				},
+			}
+		});
 		
 		/*====================================
 			Single Portfolio Slider JS
