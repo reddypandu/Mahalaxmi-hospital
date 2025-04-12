@@ -569,7 +569,7 @@ body::-webkit-scrollbar-thumb:hover {
 .slider.index2 .single-slider .text{
 	margin-top:150px;
 }
-.slider .single-slider h1 {
+.slider .single-slider h2 {
 	color: #2C2D3F;
 	font-size: 38px;
 	font-weight: 700;
@@ -577,7 +577,7 @@ body::-webkit-scrollbar-thumb:hover {
 	padding: 0;
 	line-height: 42px;
 }
-.slider .single-slider h1 span{
+.slider .single-slider h2 span{
 	color:#1a76d1;
 }
 .slider .single-slider p {
