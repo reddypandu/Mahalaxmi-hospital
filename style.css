@@ -920,6 +920,9 @@ body::-webkit-scrollbar-thumb:hover {
 	display: block;
 	margin-bottom: 7px;
 }
+.fun-facts .single-fun span.plus{
+	display: inline-flex;
+}
 .fun-facts .single-fun p{
 	color:#fff;
 	font-size:15px;
