@@ -1089,7 +1089,7 @@ body::-webkit-scrollbar-thumb:hover {
 	background:#fff;
 }
 .call-action .content .second:hover{
-	color:#1A76D1;
+	color:#1A76D1 !important;
 	border-color:transparent;
 	background:#fff;
 }
@@ -4319,4 +4319,17 @@ nav.navigation{
 	border-top: none;
 	color:#fff;
   }
-  
+  .why-choose.section.services li{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 10px;
+  }
+  .why-choose.section.services li i{
+	margin-right: 10px;
+	font-size: 16px;
+	color: #1A76D1;
+  }
+  .why-choose.section.services h5{
+
+	margin-bottom: 10px;
+  }
