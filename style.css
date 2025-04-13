@@ -1429,6 +1429,11 @@ body::-webkit-scrollbar-thumb:hover {
 	font-size:14px;
 	max-width:500px;
 }
+.testimonials .single-testimonial h4{
+
+	font-size:20px;
+	
+}
 .testimonials .single-testimonial .name {
 	margin-top: 22px;
 	color: #2C2D3F;
