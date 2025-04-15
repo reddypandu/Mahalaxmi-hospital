@@ -558,7 +558,7 @@ body::-webkit-scrollbar-thumb:hover {
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 600px;
+	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;

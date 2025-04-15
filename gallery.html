@@ -86,10 +86,10 @@
 			<!-- Topbar -->
 			<div class="topbar">
 				<div class="container">
-					<div class="row ">
+					<div class="row">
 						<div class="col-lg-6 col-md-5 col-12">
 							<!-- Contact -->
-						    <ul class="social">
+							<ul class="social">
 								<li><a href="#"><i class="icofont-facebook"></i></a></li>
 								<li><a href="#"><i class="icofont-google-plus"></i></a></li>
 								<li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
@@ -145,8 +145,9 @@
 												</ul>
 											</li>
 											
-											<li><a href="gallery.html" >Gallery</a></li>
-<li><a href="contact.html">Contact Us</a></li>
+											<li  class="active"><a href="gallery.html" >Gallery</a></li>
+											
+											<li><a href="contact.html" >Contact Us</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -164,35 +165,107 @@
 			<!--/ End Header Inner -->
 		</header>
 		<!-- End Header Area -->
-		 <!--whatsapp-->
-		 <div class="whatsapp">
-			<a href="https://wa.me/+919440426509">
-			  <i class="fab fa-whatsapp"></i>
-			</a>
-		  </div>
-		  <!--whatsapp-->
-		<!-- Error Page -->
-		<section class="error-page section">
+	 <!--whatsapp-->
+	 <div class="whatsapp">
+		<a href="https://wa.me/+919440426509">
+		  <i class="fab fa-whatsapp"></i>
+		</a>
+	  </div>
+	  <!--whatsapp-->
+		<!-- Breadcrumbs -->
+		<div class="breadcrumbs overlay">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 offset-lg-3 col-12">
-						<!-- Error Inner -->
-						<div class="error-inner">
-							<h1>404<span>Oop's  sorry we can't find that page!</span></h1>
-							<p>Aenean eget sollicitudin lorem, et pretium felis. Nullam euismod diam libero, sed dapibus leo laoreet ut. Suspendisse potenti. Phasellus urna lacus</p>
-							<form class="search-form">
-								<input placeholder="Search from Here" type="text">
-								<button class="btn" type="submit"><i class="fa fa-search"></i></button>
-							</form>
+				<div class="bread-inner">
+					<div class="row">
+						<div class="col-12">
+							<h2>Gallery</h2>
+							<ul class="bread-list">
+								<li><a href="index.html">Home</a></li>
+								<li><i class="icofont-simple-right"></i></li>
+								<li class="active">Gallery</li>
+							</ul>
 						</div>
-						<!--/ End Error Inner -->
 					</div>
 				</div>
 			</div>
-		</section>	
-		<!--/ End Error Page -->
+		</div>
+		<!-- End Breadcrumbs -->
+				
+		<!-- Start Contact Us -->
+	<div class="container gallery py-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="section-title">
+                    <h2>Gallery</h2>                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          
+                
+                    <div class="col-md-4">
+                        <img src="img/gallery/10.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/9.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/8.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/4.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/7.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/5.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/3.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/2.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/11.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/1.png" alt="#">                       
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gallery/6.png" alt="#">                       
+                    </div>
+
+
+
+    </div>
+    </div>
+
+    <style>
+        .gallery {
+            padding: 50px 0;
+        }
+        .gallery .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }   
+        .gallery .section-title h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .gallery .col-md-4{
+            margin-bottom: 30px;
+        }
+        .gallery .col-md-4 img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+    </style>
+		<!--/ End Contact Us -->
 		
-	
 		<!-- Footer Area -->
 		<footer id="footer" class="footer">
 			<!-- Footer Top -->
@@ -321,6 +394,12 @@
 		<script src="js/jquery.magnific-popup.min.js"></script>
 		<!-- Counter Up CDN JS -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<!-- Google Map API Key JS -->
+		<script src="https://maps.google.com/maps/api/js?key=AIzaSyDGqTyqoPIvYxhn_Sa7ZrK5bENUWhpCo0w"></script>
+		<!-- Gmaps JS -->
+		<!-- <script src="js/gmaps.min.js"></script> -->
+		<!-- Map Active JS -->
+		<script src="js/map-active.js"></script>
 		<!-- Bootstrap JS -->
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Main JS -->
