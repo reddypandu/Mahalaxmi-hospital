@@ -3427,7 +3427,7 @@ body::-webkit-scrollbar-thumb:hover {
 	position:absolute;
 	left:50px;
 }
-.contact-us .single-info i.icofont-ui-email,.contact-us .single-info i.icofont-ui-call{
+.contact-us .single-info i.fas.fa-envelope,.contact-us .single-info i.icofont-ui-call{
 	font-size:20px;
 }
 .contact-us .single-info .content {
