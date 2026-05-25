@@ -23,13 +23,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'localhost'; // Replace with your SMTP server address
         $mail->SMTPAuth = false;
-        $mail->Username = 'contact@srimahalaxmihospital.com'; // Replace with your SMTP username
+        $mail->Username = 'srimahalaxmihospital4@gmail.com'; // Replace with your SMTP username
         $mail->Password = 'Pass'; // Replace with your SMTP password
         $mail->Port = 465;
         $mail->SMTPSecure = 'ssl'; // Enable TLS encryption
 
         // Email settings
-        $mail->setFrom('contact@srimahalaxmihospital.com', 'Sri Mahalaxmi Hospital Contact Form'); // Replace with your email and name
+        $mail->setFrom('srimahalaxmihospital4@gmail.com', 'Sri Mahalaxmi Hospital Contact Form'); // Replace with your email and name
         $mail->addAddress('pandureddypatterns@gmail.com'); // Add recipient's email
 
         $mail->Subject = "Message from $name";
